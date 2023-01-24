@@ -1,41 +1,10 @@
 * {
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-  background: f1fbff;
+  background: white;
 }
-.section-padding {
-  padding: 100px 0;
-}
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-}
-.carousel-caption {
-  bottom: 220px;
-  z-index: 2;
-}
-.carousel-caption h5 {
-  font-size: 45px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-}
-.carousel-caption p {
-  width: 60%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
-}
-.carousel-inner::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgb(0, 0, 0, 0.7);
-}
+
 .navbar-nav {
   font-size: 15px;
   text-transform: uppercase;
@@ -58,55 +27,88 @@ body {
 .w-100 {
   height: 100vh;
 }
-.services .card-body {
-  font-size: 20px;
-}
-.team .card-body {
-  font-size: 20px;
-}
-.team .card {
-  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.15);
-}
-.portfolio .card {
-  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.15);
-}
 
 /* ==responsive css==*/
-@media only screen and(min-width: 768px) and(max-width: 991px) {
-  .carousel-caption {
-    bottom: 370px;
-  }
-  .carousel-caption p {
-    width: 100%;
-  }
+
+.imagelogo {
+  width: 150px;
+  position: absolute;
+  top: 25%;
+  left: 2%;
 }
-@media only screen and(max-width:667px) {
-  .navbar-nav {
+
+#backgroundimage {
+  background-image: url("images/l2.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10%;
+}
+nav {
+  overflow: auto;
+}
+/* Smartphones (portrait and landscape) ----------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .imagelogo {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+  }
+  .navbar-collapse {
     text-align: center;
   }
-  .carousel-caption {
-    bottom: 125px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .imagelogo {
+    position: absolute;
+    left: 2%;
+    top: 5%;
   }
-  .carousel-caption h5 {
-    font-size: 17px;
+  .navbar-nav {
+    flex-direction: row !important;
+    margin-bottom: 150px;
+    justify-content: space-between;
   }
-  .carousel-caption a {
-    padding: 10px 15px;
-  }
-  .carousel-caption p {
-    width: 100%;
-    line-height: 1.6;
-    font-size: 12px;
+  #backgroundimage {
+    top: 15%;
   }
 }
-.log-section {
-  width: 10%;
-  margin-left: initial;
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .imagelogo {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+  }
+  .navbar-collapse {
+    text-align: right;
+  }
+  .navbar-nav {
+    flex-direction: row !important;
+  }
 }
-.logo-sec {
-  margin-left: 0;
-  max-width: 35%;
-  max-height: 100%;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
 }
-.about-text-1 {
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}
+.nav-item {
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: Libre + Franklin;
 }
