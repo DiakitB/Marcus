@@ -57,8 +57,13 @@ nav {
     left: 2%;
     top: 5%;
   }
-  .navbar-collapse {
-    text-align: center;
+  .navbar-nav {
+    flex-direction: row !important;
+    margin-bottom: 150px;
+    justify-content: space-between;
+  }
+  #backgroundimage {
+    top: 15%;
   }
 }
 
@@ -86,11 +91,13 @@ nav {
     left: 2%;
     top: 5%;
   }
-  .navbar-collapse {
-    text-align: right;
-  }
   .navbar-nav {
     flex-direction: row !important;
+    margin-bottom: 150px;
+    justify-content: space-between;
+  }
+  #backgroundimage {
+    top: 15%;
   }
 }
 
