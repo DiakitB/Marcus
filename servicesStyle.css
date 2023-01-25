@@ -6,7 +6,7 @@ body {
 
     white 40%,
 
-    #ebe6cc 40%
+    #f8f3f3 40%
   );
 }
 .images {
@@ -26,14 +26,16 @@ body {
 
 @media only screen and (max-width: 800px) {
   .grid-2 {
-    background-color: red;
-    text-align: center;
+    font-size: 2vw;
+  }
+  .grid-2 p {
     padding-left: 10px;
-    font-size: 4vh;
   }
   .my-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
+    justify-content: center;
   }
 }
