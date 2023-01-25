@@ -9,33 +9,21 @@ body {
     #f8f3f3 40%
   );
 }
-.images {
+
+.myImage {
   width: 1000px;
 }
-.my-container {
+.containers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 200px;
 }
-.grid-2 {
+.div-2 {
   text-align: center;
-  padding-top: 50px;
-  font-size: 20px;
 }
 
 @media only screen and (max-width: 800px) {
-  .grid-2 {
-    font-size: 3vw;
-  }
-  .grid-2 p {
-    padding-left: 10px;
-  }
-  .my-container {
+  .containers {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    justify-content: center;
   }
 }
