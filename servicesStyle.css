@@ -9,3 +9,27 @@ body {
     #ebe6cc 40%
   );
 }
+.images {
+  width: 1000px;
+}
+.my-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 250px;
+  gap: 10px;
+}
+.grid-2 {
+  background-color: blue;
+}
+@media only screen and (max-width: 800px) {
+  .grid-2 {
+    background-color: red;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .my-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

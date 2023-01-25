@@ -72,20 +72,19 @@ nav {
   .navbar-nav {
     align-items: flex-end;
   }
-  .nav-item {
-    font-size: 10px;
-    font-weight: bolder;
-    font-family: Libre + Franklin;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .imagelogo {
     position: absolute;
     left: 2%;
     top: 5%;
   }
+  .nav .navbar .navbar-inverse {
+    background-color: red;
+  }
+
   .navbar-nav {
     align-items: flex-end;
   }
@@ -103,4 +102,10 @@ nav {
   font-size: 14px;
   font-weight: bolder;
   font-family: Libre + Franklin;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .nav .navbar .navbar-inverse {
+    background-color: red;
+  }
 }
