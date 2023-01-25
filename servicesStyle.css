@@ -21,21 +21,15 @@ body {
 .div-2 {
   text-align: center;
   padding-top: 50px;
-  vertical-align: auto;
-  margin-left: 10px;
 }
 
 @media only screen and (max-width: 900px) {
   .containers {
     display: flex;
     flex-direction: column;
-    margin-top: auto;
   }
   .myImage {
     width: 100%;
     height: auto;
-  }
-  .div-2 {
-    margin-left: 0;
   }
 }
