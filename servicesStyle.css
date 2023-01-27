@@ -4,9 +4,9 @@ body {
   background: linear-gradient(
     to right,
 
-    white 40%,
+    white 50%,
 
-    #fcf6f6 40%
+    #fcf6f6 50%
   );
 }
 
@@ -16,7 +16,7 @@ body {
 .containers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 220px;
+  margin-top: 185px;
 }
 .div-2 {
   text-align: center;
@@ -65,6 +65,12 @@ body {
 
 /* ==responsive css==*/
 
+.imagelogo {
+  width: 150px;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
 .imagelogo {
   width: 150px;
   position: absolute;
