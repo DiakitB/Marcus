@@ -34,3 +34,13 @@ body {
 .div-5 {
   grid-column: 1 / span 2;
 }
+@media only screen and(max-width: 1200px) {
+  .image-1 {
+    width: 100%;
+    height: auto;
+  }
+  .image-2 {
+    width: 100%;
+    height: auto;
+  }
+}
