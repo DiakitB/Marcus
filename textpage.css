@@ -46,6 +46,8 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .box-three p {
+  }
 }
 .image-2 {
   width: 100%;

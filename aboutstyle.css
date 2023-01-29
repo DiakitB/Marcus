@@ -9,35 +9,6 @@ body {
   background: linear-gradient(to right, #fcf6f6 45%, white 55%);
 }
 
-.factory {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-
-  height: 550px;
-  gap: 10px;
-  margin-top: 100px;
-  padding: 10px;
-}
-.factory > div {
-}
-.image-1 {
-  width: 100%;
-  height: auto;
-}
-
-.div-3 {
-  grid-column: 3 / span 1;
-}
-.div-5 {
-  grid-column: 1 / span 2;
-}
-@media only screen and(max-width: 1200px) {
-  .image-1 {
-    width: 100%;
-    height: auto;
-  }
-  .image-2 {
-    width: 100%;
-    height: auto;
-  }
+.bg {
+  background-color: rgb(240, 235, 236);
 }

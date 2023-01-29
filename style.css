@@ -81,17 +81,16 @@ nav {
     left: 2%;
     top: 5%;
   }
-  .nav .navbar .navbar-inverse {
-    background-color: red;
-  }
 
   .navbar-nav {
-    align-items: flex-end;
   }
   .nav-item {
     font-size: 10px;
     font-weight: bolder;
     font-family: Libre + Franklin;
+  }
+  #navbarSupportedContent a {
+    color: white;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
