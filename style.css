@@ -5,7 +5,7 @@
 }
 .hero-image {
   background-image: url("images/l2.jpg");
-  background-color: #cccccc;
+
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,9 +15,9 @@
 @media only screen and (max-width: 768px) {
   .hero-image {
     background-image: url("images/l2.jpg");
-    background-color: #cccccc;
+
     height: 800px;
-    background-size: contain;
+
     background-repeat: no-repeat;
 
     margin-top: 100px;
