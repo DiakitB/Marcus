@@ -22,14 +22,11 @@
     />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-light navbar-light fixed-top bg-transparent"
-    >
-      <div class="container">
-        <a class="navbar-brand py-5" href="#">
-          <img src="images/logo2.png" alt="" class="imagelogo" />
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo2.png" alt="" style="width: 120px" />
         </a>
-
         <button
           class="navbar-toggler"
           type="button"
@@ -42,27 +39,66 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="services.html">ABOUT US</a>
+              <a
+                class="nav-link active max-3"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="textpage.html">SERVICES</a>
+              <a class="nav-link max-3" href="services.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                SERVICES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="textpage.html">RENOVATION</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="projects.html"
+                    >NEW CONSTRUCTIONS</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html"
+                    >KITCHEN RENOVATIONS</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html"
+                    >BATHROOM RENOVATIONS</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">PROJECTS</a>
+              <a class="nav-link max-3" href="#">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">DESIGN TIPS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">CONTACT US</a>
+              <a class="nav-link max-3" href="#">CONTACT US</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="backgroundimage"></div>
+    <div class="backgroundimage">
+      <div class="homepage">
+        <img src="images/l2.jpg" alt="" class="image-2"/>
+      </div>
+    </div>
 
     <!--About Section-->
 

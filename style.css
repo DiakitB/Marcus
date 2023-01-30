@@ -1,110 +1,14 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body {
-  background: white;
+.image-2 {
+  width: 100%;
+  height: auto;
 }
-
-.navbar-nav {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.navbar-light .navbar-brand {
-  color: #000;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:hover {
-  color: #000;
-}
-.navbar-light .navbar-nav .navbar-link {
-  color: #000;
-}
-.w-100 {
-  height: 100vh;
-}
-
-/* ==responsive css==*/
-
-.imagelogo {
-  width: 150px;
-  position: absolute;
-  top: 25%;
-  left: 2%;
-}
-
-#backgroundimage {
-  background-image: url("images/l2.jpg");
-  width: 100vw;
-  height: 80vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 10%;
-}
-nav {
-  overflow: auto;
-}
-/* Smartphones (portrait and landscape) ----------- */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 500px) {
-  .imagelogo {
-    position: absolute;
-    left: 2%;
-    top: 5%;
-  }
-  .navbar-nav {
-    align-items: flex-end;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .imagelogo {
-    position: absolute;
-    left: 2%;
-    top: 5%;
-  }
-  .navbar-nav {
-    align-items: flex-end;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .imagelogo {
-    position: absolute;
-    left: 2%;
-    top: 5%;
-  }
-
-  .navbar-nav {
-  }
-  .nav-item {
-    font-size: 10px;
-    font-weight: bolder;
-    font-family: Libre + Franklin;
-  }
-  #navbarSupportedContent a {
-    color: white;
-  }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-.nav-item {
-  font-size: 14px;
-  font-weight: bolder;
-  font-family: Libre + Franklin;
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .nav .navbar .navbar-inverse {
-    background-color: red;
-  }
+.backgroundimage {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 15px;
 }
