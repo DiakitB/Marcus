@@ -3,12 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-.image-2 {
-  width: 100%;
-  height: auto;
-}
-.backgroundimage {
-  display: grid;
-  grid-template-rows: 1fr;
-  padding: 15px;
+.hero-image {
+  background-image: url("images/l2.jpg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
