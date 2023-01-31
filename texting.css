@@ -10,7 +10,7 @@ body {
 .mycontainer {
   display: grid;
   grid-template-columns: 370px 370px;
-  grid-template-rows: 500px 1fr;
+  grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 10px;
 }
@@ -20,7 +20,7 @@ body {
 }
 .mysecondcontainer {
   display: grid;
-  grid-template-rows: 500px 1fr;
+  grid-template-rows: 1fr 1fr;
   padding: 10px;
   gap: 10px;
   width: fit-content;
@@ -34,7 +34,7 @@ body {
 }
 .house {
   display: grid;
-  grid-template-columns: 760px 760px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin-left: 200px;
   column-gap: none;
