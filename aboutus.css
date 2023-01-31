@@ -23,7 +23,7 @@ body {
 .mycontainer > div {
   border: 1px rgb(231, 238, 231) solid;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   .mycontainer {
     display: flex;
     flex-direction: column;
