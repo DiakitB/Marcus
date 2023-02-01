@@ -34,9 +34,6 @@ body {
   height: auto;
 }
 .textbox {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: Libre + Franklin;
-  padding-top: 20px;
+  font-family: "sans";
+  line-height: 150%;
 }
