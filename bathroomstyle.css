@@ -47,7 +47,7 @@ body {
   width: 70%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 908px) {
   .bigcontainer > div {
     width: 100%;
     height: max-content;
@@ -65,10 +65,13 @@ body {
     margin-top: 0;
   }
   .text-container {
-    width: 100%;
+    width: auto;
     margin-bottom: auto;
   }
-
+  .testing {
+    width: auto;
+    margin: auto;
+  }
   .box2 {
     order: 4;
   }
@@ -139,8 +142,12 @@ h3 {
     margin-left: 0;
     margin-top: 0;
   }
+  .testing {
+    width: auto;
+    margin: auto;
+  }
   .text-container {
-    width: 100%;
+    width: auto;
     margin-bottom: auto;
   }
 
