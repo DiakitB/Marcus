@@ -118,6 +118,10 @@ h3 {
   width: 600px;
   margin-bottom: 150px;
 }
+.testing {
+  width: 600px;
+  margin-left: 20px;
+}
 @media screen and (max-width: 568px) {
   .bigcontainer > div {
     width: 100%;
