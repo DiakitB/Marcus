@@ -50,7 +50,7 @@ body {
   width: 600px;
   margin-bottom: 120px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 908px) {
   .bigcontainer > div {
     width: 100%;
     height: max-content;
@@ -68,7 +68,7 @@ body {
     margin-top: 0;
   }
   .text-container {
-    width: 100%;
+    width: auto;
     margin-bottom: auto;
   }
 
@@ -113,7 +113,7 @@ body {
     margin-top: 0;
   }
   .text-container {
-    width: 100%;
+    width: auto;
     margin-bottom: auto;
   }
 
