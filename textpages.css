@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #faf9f7 55%, white 45%);
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.bigcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98vw;
+  align-items: center;
+  margin: 20px;
+  font-family: "sans";
+  margin-left: 150px;
+  margin-top: 150px;
+}
+.bigcontainer::after {
+  width: 98vw;
+
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.bigcontainer > div {
+  width: 50%;
+  height: 50%;
+  padding: 18px;
+}
+
+.box1 {
+  margin-bottom: 20px;
+}
+
+.box3 {
+  display: flex;
+  gap: 10px;
+}
+
+.box3 img {
+  width: 45%;
+  height: 30rem;
+}
+.box2 img {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .bigcontainer > div {
+    width: 100%;
+    height: max-content;
+    flex: 0 0 100%;
+  }
+  .bigcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    align-items: center;
+    margin: 20px;
+    font-family: "sans";
+    padding: 15;
+  }
+
+  .box2 {
+    order: 4;
+  }
+
+  .box3 {
+    flex-wrap: wrap;
+  }
+
+  .box3 img {
+    width: 100%;
+  }
+  .box2 img {
+    width: 100%;
+  }
+
+  .bigcontainer::after {
+    display: none;
+  }
+}
+.box1 {
+  font-family: "sans";
+  line-height: 17 0%;
+}
+.box4 {
+  font-family: "sans";
+  line-height: 120%;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.box4 h3 {
+  padding-left: 15px;
+}
