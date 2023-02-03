@@ -62,6 +62,8 @@ body {
     margin: 20px;
     font-family: "sans";
     padding: 15;
+    margin-left: 0;
+    margin-top: 0;
   }
 
   .box2 {
