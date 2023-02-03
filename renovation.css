@@ -48,7 +48,7 @@ body {
 }
 .text-container {
   width: 600px;
-  margin-bottom: 120px;
+  margin-bottom: 170px;
 }
 @media screen and (max-width: 908px) {
   .bigcontainer > div {
