@@ -91,11 +91,11 @@ body {
 }
 .box1 {
   font-family: "sans";
-  line-height: 17 0%;
+  line-height: 150%;
 }
 .box4 {
   font-family: "sans";
-  line-height: 120%;
+  line-height: 150%;
 }
 h3 {
   font-size: 18px;
@@ -103,4 +103,7 @@ h3 {
 }
 .box4 h3 {
   padding-left: 15px;
+}
+.imge-4 {
+  width: 100px;
 }
