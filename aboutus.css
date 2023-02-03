@@ -10,10 +10,10 @@ body {
 
 .mycontainer {
   display: grid;
-  grid-template-columns: 1100px 1fr;
+  grid-template-columns: 1000px 1fr;
 
-  gap: 10px;
-  margin-top: 50px;
+  gap: 25px;
+  margin-top: 20px;
   background-color: rgb(223, 223, 223);
 }
 .mycontainer > div {
@@ -30,6 +30,7 @@ body {
 .images-2 {
   width: 100%;
   height: auto;
+  margin-right: 50px;
 }
 .textbox {
   font-family: "sans";
@@ -37,4 +38,8 @@ body {
 }
 .imge-4 {
   width: 100px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
 }

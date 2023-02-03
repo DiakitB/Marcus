@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to right, white 50%, #faf9f7 50%);
+  background: linear-gradient(to right, white 55%, #faf9f7 45%);
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -108,4 +108,8 @@ h3 {
 }
 p:last-child {
   padding-left: 15px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
 }
