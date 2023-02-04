@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(
-    to right,
-
-    white 50%,
-
-    #fcf6f6 50%
-  );
+  background: linear-gradient(to right, white 45%, #faf9f7 55%);
 }
 .hovereffect {
   width: 100%;
