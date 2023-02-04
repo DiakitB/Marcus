@@ -14,7 +14,6 @@ body {
   margin: 20px;
   font-family: "sans";
   margin-left: 150px;
-  margin-top: 150px;
 }
 .bigcontainer::after {
   width: 98vw;
