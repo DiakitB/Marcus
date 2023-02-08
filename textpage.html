@@ -22,10 +22,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="textpages.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="textimages/" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/logo2.png" alt="" style="width: 120px" />
@@ -63,30 +68,31 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                services
+                Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
+                  <a class="dropdown-item" href="renovation.html">Renovation</a>
+                </li>
+                <li>
                   <a class="dropdown-item" href="newConstruction.html"
-                    >New Constructions</a
+                    >New Construction</a
                   >
                 </li>
                 <li>
                   <a class="dropdown-item" href="kitchenRenovation.html"
-                    >Kitchen Renovatiosn</a
+                    >Kitchen Renovation</a
                   >
                 </li>
                 <li>
                   <a class="dropdown-item" href="bathroomRenovation.html"
-                    >Bathroom Renovations</a
+                    >Bathroom Renovation</a
                   >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link max-3" href="project.html">Projects</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link max-3" href="contactForm.html">Contact Us</a>
             </li>
@@ -94,32 +100,103 @@
         </div>
       </div>
     </nav>
-
+    <p><br /></p>
+    <p><br /></p>
+    <p><br /></p>
     <div class="container">
-      <!-- heading text -->
-      <ul class="image-gallery">
-        <li>
-          <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-          <div class="overlay"><span>Image title</span></div>
-        </li>
-        <li>
-          <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-          <div class="overlay"><span>Image title</span></div>
-        </li>
-        <li>
-          <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-          <div class="overlay"><span>Image title</span></div>
-        </li>
-        <!-- other items here -->
-      </ul>
+      <div class="row g-0">
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-terry-magallanes-2988860.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a class="info" href="textpage.html"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-terry-magallanes-2988860.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-vecislavas-popa-1571453.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-vecislavas-popa-1571470.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-vecislavas-popa-1643383.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-vecislavas-popa-1743227.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-victoria-akvarel-1648776.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-lg-6">
+          <div class="hovereffect">
+            <img
+              class="img-responsive img-fluid"
+              src="livingroomPictures/pexels-vecislavas-popa-1571470.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
+    <p><br /></p>
+    <p><br /></p>
+    <p><br /></p>
     <footer class="text-center text-lg-start bg-secondary text-white">
       <!-- Section: Social media -->
       <section
         class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
       >
         <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
+        <div class="me-5 d-none d-lg-block text-white">
           <span>Get connected with us on social networks:</span>
         </div>
         <!-- Left -->
@@ -130,16 +207,13 @@
             <i class="fab fa-facebook-f text-white"></i>
           </a>
           <a href="" class="me-4 link-secondary">
-            <i class="fab fa-twitter text-white"></i>
+            <i class="fab fa-twitter text-primary"></i>
           </a>
           <a href="" class="me-4 link-secondary">
             <i class="fab fa-google text-white"></i>
           </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fab fa-instagram text-white"></i>
-          </a>
-          <a href="" class="me-4 link-secondary">
-            <i class="fab fa-linkedin text-white"></i>
+          <a href="" class="me-4 link-secondary text-white">
+            <i class="fab fa-instagram text-warning"></i>
           </a>
         </div>
         <!-- Right -->
@@ -155,7 +229,13 @@
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
               <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3 text-secondary"> </i>
+                <i class="fas fa-gem me-3 text-secondary">
+                  <img
+                    src="images/logo2.png"
+                    alt=""
+                    class="text-white imge-4"
+                  />
+                </i>
               </h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
@@ -242,16 +322,10 @@
       </div>
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-    <!-- Footer -->
-
-    <!-- Footer -->
-    <!-- Carousel wrapper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <!-- Footer -->
   </body>
 </html>
